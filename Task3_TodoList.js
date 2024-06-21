@@ -62,5 +62,3 @@ viewTasks();
 // - Create a pull request and merge it.
 
 // Github repo - https://github.com/dalton-storm/todo-list
-
-// This comment was added in the demo-branch branch and merged into the main branch using a pull request
