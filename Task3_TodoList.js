@@ -39,6 +39,13 @@ const deleteTask = (taskIndex) => {
   tasks = updatedTasks;
 };
 
+// This function was added in the feature-branch and merged in a pull request.
+
+const deleteAllTasks = () => {
+  const updatedTasks = [];
+  tasks = updatedTasks;
+};
+
 // Example usage:
 
 // Adding tasks
@@ -54,6 +61,10 @@ deleteTask(1); //
 
 viewTasks();
 
+deleteAllTasks();
+
+viewTasks();
+
 // For task 4:
 
 // Initialise a Git repository in the directory containing your to-do list application.
@@ -62,3 +73,7 @@ viewTasks();
 // - Create a pull request and merge it.
 
 // Github repo - https://github.com/dalton-storm/todo-list
+
+// For task 5:
+
+// Github pull request -
